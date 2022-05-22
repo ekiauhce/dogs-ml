@@ -1,0 +1,24 @@
+2022-05-22 19:23:27.813225: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2022-05-22 19:23:27.813256: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2022-05-22 19:23:29.149331: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-05-22 19:23:29.149368: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-05-22 19:23:29.149391: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (dell-laptop): /proc/driver/nvidia/version does not exist
+2022-05-22 19:23:29.149587: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/8
+14/14 [==============================] - 3s 163ms/step - loss: 0.6767 - accuracy: 0.5556 - val_loss: 0.6137 - val_accuracy: 0.8200
+Epoch 2/8
+14/14 [==============================] - 2s 143ms/step - loss: 0.6118 - accuracy: 0.6757 - val_loss: 0.6320 - val_accuracy: 0.6000
+Epoch 3/8
+14/14 [==============================] - 2s 161ms/step - loss: 0.4767 - accuracy: 0.8027 - val_loss: 0.2957 - val_accuracy: 0.8800
+Epoch 4/8
+14/14 [==============================] - 3s 207ms/step - loss: 0.4378 - accuracy: 0.8095 - val_loss: 0.5307 - val_accuracy: 0.7400
+Epoch 5/8
+14/14 [==============================] - 3s 222ms/step - loss: 0.3561 - accuracy: 0.8707 - val_loss: 0.2891 - val_accuracy: 0.8600
+Epoch 6/8
+14/14 [==============================] - 4s 253ms/step - loss: 0.3023 - accuracy: 0.8685 - val_loss: 0.2865 - val_accuracy: 0.8600
+Epoch 7/8
+14/14 [==============================] - 4s 250ms/step - loss: 0.2738 - accuracy: 0.8980 - val_loss: 0.4430 - val_accuracy: 0.7800
+Epoch 8/8
+14/14 [==============================] - 4s 250ms/step - loss: 0.3018 - accuracy: 0.8776 - val_loss: 0.3228 - val_accuracy: 0.8600
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 3 of 3). These functions will not be directly callable after loading.
